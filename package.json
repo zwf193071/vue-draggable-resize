@@ -10,7 +10,7 @@
   },
   "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve ./example/main.js --open --mode local",
+    "dev": "vue-cli-service serve ./example/main.js --open --mode local",
     "test:unit": "vue-cli-service test:unit --coverage",
     "test:coverage": "vue-cli-service test:unit --coverage --verbose && codecov"
   },
@@ -47,10 +47,6 @@
     "env": {
       "node": true
     },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/prettier"
-    ],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"

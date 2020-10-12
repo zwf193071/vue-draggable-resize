@@ -1,5 +1,5 @@
 # vue-draggable-resize
-> The component is draggable and can be resized too designed for Vue
+> The component is draggable and can be resized too, which is specially designed for Vue
 
 
 
